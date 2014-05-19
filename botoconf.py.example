@@ -1,6 +1,2 @@
-def root_domain():
-  return "example.com"
-
-def sub_domain():
-  return "sub.example.com"
-
+def domains():
+	return [{"root": "example.com", "subdomains": ["", "cloud."]}, {"root": "example.io", "subdomains": ["", "cloud."]}]
