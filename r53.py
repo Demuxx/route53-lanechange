@@ -5,7 +5,7 @@ import datetime
 import botoconf
 
 def log_msg(msg):
-	f = open('/scripts/r53.log', 'a')
+	f = open('/var/scripts/r53.log', 'a')
 	f.write(msg)
 	f.close()
 	return True
